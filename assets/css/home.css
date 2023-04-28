@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-head{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+li{
+    margin: auto;
+    color: white;
+    font-family: Arial;
+    background-color: #70a3f5;
+    width: 450px;
+    height: 45px;
+    border: 1px solid white;
+    padding: 5px;  
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: gray;
+}
+
+.delete-button{
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+#np{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+
+button{
+    margin: 5px;
+    width: 120px;
+    height: 25px;
+    background-color: darkgray;
+    color: white;
+    border: none;
+    border-radius: 7%;
+}
+
+form{
+    text-align: center;
+    margin-left: 50px;
+}
+
+svg{
+    height: 22px;
+    width: 22px;
+}
